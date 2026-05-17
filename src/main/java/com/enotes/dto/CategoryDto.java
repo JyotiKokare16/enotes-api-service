@@ -14,6 +14,11 @@ import lombok.Setter;
 @NoArgsConstructor
 public class CategoryDto {
 
+	private Integer id;
+
+	private String name;
+
+	private String description;
 
     @Column(name = "is_active")
     private Boolean isActive;
